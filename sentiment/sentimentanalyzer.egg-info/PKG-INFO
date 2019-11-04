@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: sentimentanalyzer
+Version: 3.0.0
+Summary: 
+    Does Sentiment Analysis on a text 
+    Takes a sting input and output a json    
+     
+Home-page: https://github.com/soumilshah1995/AppleStock
+Author: Soumil Nitin Shah
+Author-email: soushah@my.bridgeport.edu
+License: MIT
+Description: 
+        [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)]
+        
+        
+        # SentimentAnalyzer 
+        
+        * This Library is Developed using WebScrapping Techiques.It Takes a String as input and output is JSON Data
+        * This is developed using BS4 and requests and re Modules 
+        
+        ## Installation
+        
+        ```bash
+        pip install sentimentanalyzer
+        ```
+        ## Usage
+        
+        ```python
+        import sys
+        from sentimentanalyzer.sentimentanalyzer import Sentiment
+        text = """  
+            Hello this is a  sample  text
+            place your text here  and it should be less than 50 000 Words 
+            
+            """
+        
+        obj = Sentiment(text=text)
+        data = obj.get
+        print(data)
+        
+        ```
+        
+        
+        ----------------
+        ![Screen Shot 2019-11-04 at 1 42 17 PM](https://user-images.githubusercontent.com/39345855/68147852-f2cf3d80-ff08-11e9-8fe3-d443a73e2cc3.png)
+        
+        
+        
+        
+        ## Authors
+        
+        * **Soumil Nitin Shah** 
+        
+        
+        
+        
+        ## License
+        
+        This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+        
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown

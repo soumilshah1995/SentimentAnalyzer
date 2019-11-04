@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+sentimentanalyzer/sentimentanalyzer.py
+sentimentanalyzer.egg-info/PKG-INFO
+sentimentanalyzer.egg-info/SOURCES.txt
+sentimentanalyzer.egg-info/dependency_links.txt
+sentimentanalyzer.egg-info/requires.txt
+sentimentanalyzer.egg-info/top_level.txt
